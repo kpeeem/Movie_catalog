@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
+git clone git@github.com:kpeeem/movie_catalog.git
 npm i
 npm run dev
 OR
