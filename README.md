@@ -34,7 +34,7 @@ TODO 👾
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Build and just upload to server
 
 ## Built With
 
