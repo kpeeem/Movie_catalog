@@ -1,0 +1,53 @@
+div
+  box-sizing border-box
+.h1,.h2
+  color #000
+  font-size 21px
+
+.h1
+  font-family ProximaNova
+  font-weight 800
+  margin 0
+  padding 15px
+  display block
+.h2
+  font-family ProximaNova
+  margin 0
+
+.wrapper
+  max-width 1200px
+  min-width 800px
+  position relative
+  margin 0 auto
+  padding-top 40px
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+
+.container
+  display flex
+  min-width  1200px
+  min-height 60vh
+  margin 0 auto
+  background-color #fafafa
+  position relative
+  box-shadow 0 1px 4px 2px rgba(#000,.2)
+  z-index 1
+
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
