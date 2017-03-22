@@ -61,7 +61,7 @@ class Update extends Component {
                                     </li>
 
                                     <li className={style.description}>
-                                        <p className={style.titleDescr}>Заголвок: </p>
+                                        <p className={style.titleDescr}>Заголовок: </p>
                                         <input
                                             required
                                             className={style.titleInput}

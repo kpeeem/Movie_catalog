@@ -1,7 +1,6 @@
 .DS_Store
 project.lock.json
 node_modules/
-dist/*
 !dist/data.json
 !dist/style.css
 !dist/index.html
